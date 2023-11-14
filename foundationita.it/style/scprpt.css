@@ -1,0 +1,87 @@
+#firsts{
+	background-image: url("Letteralmente.png");
+	background-position: 50% 40% !important;
+}
+
+.animated_divs {
+	background: url("rpt/pan.png");
+}
+
+.animated_divs>div:nth-child(4){
+	margin-bottom: 5vh;
+}
+
+h5, h5 i {
+	font-size: 2vh;
+	cursor: pointer;
+}
+
+.fa-solid {
+	margin-right: 1vw;
+	transition: transform 0.2s;
+	color:rgba(236,227,10,1.00);
+}
+.rotated{
+	transform: rotate(90deg);
+}
+
+.first_special {
+	font-size: 2.5vh;
+}
+
+img {
+	width: 60%;
+}
+
+figure {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.patreon_card {
+	padding:0 2vh;
+	margin-top: 2vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.card_container {
+	display: grid;
+	align-items: start;
+    justify-items: center;
+    justify-content: center;
+}
+
+.titlice {
+	display: flex;
+	flex-direction: row !important;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.patreon_card ul {
+	list-style: square inside url("rpt/bacon.png");
+	padding-left: 0;
+}
+
+li {
+	font-size: 1.8vh;
+	text-align: initial;
+}
+@media screen and (min-width:400px){
+	.card_container {
+		grid-template-columns: 100%;
+	}
+}
+
+@media screen and (min-width:600px){
+	.card_container {
+		grid-template-columns: 50% 50%;
+	}
+}
+@media screen and (min-width:800px){
+	.card_container {
+		grid-template-columns: 33% 33% 33%;
+	}
+}

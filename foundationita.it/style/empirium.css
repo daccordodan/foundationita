@@ -1,0 +1,24 @@
+#firsts{
+	background-image: url("Empirium.png");
+	background-position: 50% 30% !important;
+}
+.grave {
+	padding: 3vh 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+img {
+	width: 60%;
+}
+
+#tombstone {
+	width:60%;
+}
+
+.angel {
+	width:25%;
+	display:none;
+}

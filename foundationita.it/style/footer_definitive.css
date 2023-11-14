@@ -1,0 +1,47 @@
+footer a{
+	color: rgb(var(--footer-color));
+	text-align: left;
+	font-size: 2vh;
+}
+.interests {
+	display: flex;
+	flex-direction: column;
+}
+
+h4 {
+	color: rgb(var(--text-color));
+}
+
+.social>a>i {
+	color: rgb(var(--icons-color));
+	font-size: 3vh;
+	margin: 0 !important;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(var(--footer-bg),1.00);
+	padding-left: 10vw;
+	padding-bottom: 5vh;
+}
+
+@media screen and (min-width:600px){
+	footer{
+		flex-direction: row;
+		width: 98vw;
+		height: 30vh;
+		padding-left: 2vw;
+		padding-bottom: 0;
+	}
+	.legal_notes {
+		width: 33%;
+	}
+
+	.social {
+		width: 27%;
+	}
+	.interests{
+		width: 40%;
+	}
+}

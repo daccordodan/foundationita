@@ -1,0 +1,13 @@
+:root{
+	--primary: 32,42,68;
+	--secondary: 10,26,40;
+	--text-color: 255,255,255;
+	--link: #a10b0b;
+	--font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	--footer-bg: 35,35,35;
+	--body-bg: 27,27,27;
+	--hover-section: 23,23,23;
+	--tt: 0.3s;
+	--footer-color: 100,100,100;
+	--icons-color: 255,255,255;
+}
